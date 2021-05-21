@@ -1,0 +1,184 @@
+﻿body{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('file:///F:/TSF items used/backgrounds/pexels-ekrulila-3837409.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0;
+}
+
+.navbar{
+	margin-top:0;
+	padding-top:0; 
+	height:49px;
+	width:100%;
+}
+
+.heading{
+	text-align:left;
+	height:0.1px;
+	width:850px;
+}
+
+h1{
+	text-align:left;
+	padding-left:60px;
+	padding-top:2.5px;
+	color:#6666FF;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:39px;
+	letter-spacing:4px;
+	-webkit-text-stroke: 0.3px #6666FF;
+}
+
+ul{
+	list-style-type:none;
+	margin-top:0;
+	overflow:hidden;
+	padding-top:0;
+	padding-right:2px;
+	background-color:#FAC175;
+	text-align:left;
+	border:0.5px black solid;
+}
+
+li{
+	float:right;
+	font-size:22px;
+	font-family:lato;
+}	
+	
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:12px 30px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#66FF99;
+	color:black;
+	border:0.5px black hidden;
+}
+
+
+/*Footer Body*/
+
+.footer {
+  text-align: center;
+  background-color: #C0C0C0;
+  position:fixed;
+  width:100%;
+  bottom:0;
+}
+
+h4{
+	font-family:lato;
+	color:black;
+	width:30%;
+	float:left;
+	padding-left:18%;
+}
+
+h5{
+	width:30%;
+	float:right;
+	font-family:lato;
+	padding-right:18%;
+}
+
+
+/* CSS for Article Body*/
+
+.newsbreaking {
+	 margin-top:40px;
+ 	 padding: 5px;
+  	 background-image: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,0.3));
+}
+
+h3{
+	font-size:50px;
+	margin-bottom:20px;
+	margin-top:20px;
+	color:white;
+	text-align:center;
+}
+
+h6{
+	text-align:right;
+	color:#99CCFF;
+	font-size:14px;
+	font:lato;
+	margin:7px 7px 0 0;
+}
+.newsbreaking > h1, .news {
+    margin: 20px;
+    padding: 5px;
+}
+
+.news {
+    background: white;
+}
+
+.news:hover{
+	background-color:#99FF99;
+	cursor:pointer;
+	transform:scale(1.02);
+}
+
+.news > h2, p {
+    margin: 10px;
+    font-size: 100%;
+}
+
+p a{
+	text-decoration:none;
+	color:black;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom:20px;
+	margin-top:20px;
+	color:#0099FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
