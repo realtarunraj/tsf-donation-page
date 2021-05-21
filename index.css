@@ -1,0 +1,130 @@
+﻿body{
+	margin:0;
+	background-image:linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1)), url('file:///F:/TSF items used/about/child happy 2.jpg');
+	background-size:100% 100%;
+}
+
+/* Header/Blog Title */
+.header {
+	padding:10px;
+  	text-align: center;
+  	background:#FFCC66;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-family:Arial;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25px;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color:#66FF66;
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+.nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*From Here we'll work to make Button attractive*/
+
+.button {
+  background-color:#66FF33;
+  border: none;
+  padding: 8px 45px;
+  text-align:center;
+  display:block;
+  width:150px;
+  font-size: 26px;
+  margin-top:25px;
+  margin-left:120px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+
+.button:hover{
+	background-color:#009933;
+	box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.7);
+	transform:scale(1.01);
+}
+
+.button a{
+	text-decoration:none;
+	color:black;
+}
+
+.button a:hover{
+	color:#FFFFFF;
+}
+
+.notes{
+	text-align:left;
+	margin:14% 0 0 5%;
+	height:225px;
+	width:525px;
+	padding-left:35px;
+	padding-top:30px;
+	border-radius: 15px;
+	border:0.1px black solid;	
+}
+
+h2{
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:50px;
+	margin:0;
+	padding-top:12px;
+	padding-bottom:4px;
+	color:red;
+	-webkit-text-stroke: 0.7px red;
+
+}
+
+p{
+	font-family:lato;
+	font-size:14px;
+	margin:0;
+	padding:0;
+}
+
+.footer {
+  text-align: center;
+  background-color: #C0C0C0;
+  position:fixed;
+  width:100%;
+  bottom:0;
+}
+
+h4{
+	font-family:lato;
+	color:black;
+	width:30%;
+	float:left;
+	padding-left:18%;
+}
+
+h5{
+	width:30%;
+	float:right;
+	font-family:lato;
+	padding-right:18%;
+}

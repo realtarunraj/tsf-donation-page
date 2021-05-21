@@ -1,0 +1,122 @@
+﻿body{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)), url('file:///F:/TSF items used/backgrounds/pexels-kaboompics-com-6386.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0;
+}
+
+.navbar{
+	margin-top:0;
+	padding-top:0; 
+	height:49px;
+	width:100%;
+}
+
+.heading{
+	text-align:left;
+	height:0.1px;
+	width:850px;
+}
+
+h1{
+	text-align:left;
+	padding-left:60px;
+	padding-top:2.5px;
+	color:#6666FF;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:39px;
+	letter-spacing:4px;
+	-webkit-text-stroke: 0.3px #6666FF;
+}
+
+ul{
+	list-style-type:none;
+	margin-top:0;
+	overflow:hidden;
+	padding-top:0;
+	padding-right:2px;
+	background-color:#FAC175;
+	text-align:left;
+	border:0.5px black solid;
+}
+
+li{
+	float:right;
+	font-size:22px;
+	font-family:lato;
+}	
+	
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:12px 30px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#66FF99;
+	color:black;
+	border:0.5px black hidden;
+}
+
+.contact{
+	text-align:center;
+	
+}
+
+p{
+	font-family:lato;
+	font-size:90px;
+	margin:3% 0 20% 0;
+}
+
+img{
+	width:120px;
+	height:120px;
+	margin:10px;
+}
+
+img:hover{
+	transform:scale(1.1);
+}
+
+
+
+.footer {
+  text-align: center;
+  background-color: #C0C0C0;
+  position:fixed;
+  width:100%;
+  bottom:0;
+}
+
+h4{
+	font-family:lato;
+	color:black;
+	width:30%;
+	float:left;
+	padding-left:18%;
+}
+
+h5{
+	width:30%;
+	float:right;
+	font-family:lato;
+	padding-right:18%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
